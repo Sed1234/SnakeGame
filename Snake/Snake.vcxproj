@@ -110,6 +110,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Drawer.h" />
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="IDrawable.h" />
+    <ClInclude Include="Pixel.h" />
+    <ClInclude Include="PlayGround.h" />
+    <ClInclude Include="SafeFile.h" />
+    <ClInclude Include="Snake.h" />
+    <ClInclude Include="SnakeGame.h" />
+    <ClInclude Include="Wall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Drawer.cpp" />
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="IDrawable.cpp" />
+    <ClCompile Include="Pixel.cpp" />
+    <ClCompile Include="PlayGround.cpp" />
+    <ClCompile Include="SafeFile.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="SnakeGame.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
