@@ -1,6 +1,5 @@
 #include "SnakeGame.h"
-#include "SafeFile.h"
-#include <ctime>
+
 SnakeGame::SnakeGame()
 {
 	state = Started;

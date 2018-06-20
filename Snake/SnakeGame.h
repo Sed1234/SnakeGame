@@ -4,6 +4,7 @@
 #include "Wall.h"
 #include "Drawer.h"
 #include "SafeFile.h"
+#include <ctime>
 
 class SnakeGame
 {
